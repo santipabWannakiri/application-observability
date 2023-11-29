@@ -29,6 +29,12 @@ Logging is the process of recording events, actions, or data points that occur i
 >3. Information Overload: Excessive detail in logs can lead to difficulty in identifying crucial information.
 
 #### Common tools for logging
+<p align="center">
+  <img src="images/elk.webp" alt="image description" width="600" height="250">
+</p>
+
+###### Source Picture: https://www.guru99.com/elk-stack-tutorial.html
+
 The ELK Stack, comprised of Elasticsearch, Logstash, and Kibana, is a popular and powerful combination of tools for log management and analysis. Here's an overview of each component and how they work together:
 
 `Elasticsearch`:
