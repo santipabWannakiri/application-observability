@@ -48,3 +48,7 @@ Role: Logstash ingests and processes log data from various sources, transforming
 `Kibana`:
 Kibana is a data visualization and exploration tool.\
 Role: Kibana provides a user-friendly interface for visualizing and exploring log data stored in Elasticsearch. Users can create custom dashboards, perform ad-hoc queries, and generate visualizations such as charts, graphs, and maps.
+
+### POC project [spring-boot-logstash-aop](https://github.com/santipabWannakiri/spring-boot-logstash-aop)
+
+## Metrics
