@@ -27,3 +27,18 @@ Logging is the process of recording events, actions, or data points that occur i
 >1. Data Volume: Large logs pose challenges in storage, retrieval, and analysis, impacting performance and costs.
 >2. Performance Impact: Logging can introduce performance overhead, affecting application responsiveness.
 >3. Information Overload: Excessive detail in logs can lead to difficulty in identifying crucial information.
+
+#### Common tools for logging
+The ELK Stack, comprised of Elasticsearch, Logstash, and Kibana, is a popular and powerful combination of tools for log management and analysis. Here's an overview of each component and how they work together:
+
+`Elasticsearch`:
+Elasticsearch is a distributed, RESTful search and analytics engine.\
+Role: It serves as the backbone for storing and indexing log data in real-time. Elasticsearch allows for efficient searching, querying, and analysis of large volumes of logs.
+
+`Logstash`:
+Logstash is an open-source data processing pipeline.\
+Role: Logstash ingests and processes log data from various sources, transforming it into a standardized format. It facilitates the collection, parsing, and enrichment of logs before forwarding them to Elasticsearch.
+
+`Kibana`:
+Kibana is a data visualization and exploration tool.\
+Role: Kibana provides a user-friendly interface for visualizing and exploring log data stored in Elasticsearch. Users can create custom dashboards, perform ad-hoc queries, and generate visualizations such as charts, graphs, and maps.
