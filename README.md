@@ -52,5 +52,13 @@ Role: Kibana provides a user-friendly interface for visualizing and exploring lo
 ### POC project [spring-boot-logstash-aop](https://github.com/santipabWannakiri/spring-boot-logstash-aop)
 
 ## Metrics
+Metrics are statistical measurements collected over specific time intervals, often organized into time series data. They provide insights into various aspects of a system or application's performance. For instance:
 
+`System Metrics`: CPU Usage,RAM Usage, Network Throughput etc.\
+`Application Metrics`: Request Count, Error Rate, Latency, Average Response Time etc.
 
+These metrics, collected over time, enable comprehensive monitoring and analysis, allowing for the identification of trends, anomalies, and areas for improvement in both system and application domains. By understanding these metrics, teams can proactively optimize performance, troubleshoot issues, and enhance the overall reliability of the system.
+
+#### Highlights of Metrics 
+
+#### Drawback of Metrics 
