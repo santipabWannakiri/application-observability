@@ -67,3 +67,13 @@ These metrics, collected over time, enable comprehensive monitoring and analysis
 
 
 #### Drawback of Metrics 
+>1. Metrics collection relies on instrumenting applications or systems with the necessary monitoring tools. This dependency may introduce additional overhead and potential points of failure.
+>2. In pull-based systems where metrics are collected at specific intervals, there is a possibility that the system might miss capturing outliers or sudden variations in the data.
+>3. Analyzing a large volume of metrics data, especially from diverse sources, can introduce complexity in interpretation. 
+>4. Metrics may lack detailed information compared to logging, limiting the depth of insights available for thorough analysis and investigation.
+
+#### Tools for Metrics
+
+### POC project
+
+## Tracing
