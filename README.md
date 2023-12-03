@@ -60,5 +60,10 @@ Metrics are statistical measurements collected over specific time intervals, oft
 These metrics, collected over time, enable comprehensive monitoring and analysis, allowing for the identification of trends, anomalies, and areas for improvement in both system and application domains. By understanding these metrics, teams can proactively optimize performance, troubleshoot issues, and enhance the overall reliability of the system.
 
 #### Highlights of Metrics 
+>1. The majority of instrumentation tools available on the market facilitate metric retrieval without the need for code modifications.
+>2. Conserves disk space and has a minimal impact on performance compared to logging.
+>3. Gain a holistic view of your application's health and performance.
+>4. Metrics are time series data; they reveal future trends, enhancing the ability for strategic planning and improved resource allocation.
+
 
 #### Drawback of Metrics 
