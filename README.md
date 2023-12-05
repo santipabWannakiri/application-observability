@@ -85,6 +85,8 @@ Unlike logging, where ELK readily comes to mind, metrics offer a plethora of too
 
 `Zabbix` is also an open-source monitoring solution renowned for its network and application monitoring capabilities. It employs a relational database for storing metrics data and offers both agent-based and agentless monitoring options. Zabbix provides flexible alerting rules, supports SQL-based data queries, and integrates well with a wide range of devices and systems, including SNMP devices. It is known for its versatility and scalability, making it suitable for medium to large environments.
 
+Choose Prometheus for dynamic, cloud-native environments with strong Kubernetes integration and a pull-based model. Opt for Zabbix if you need versatility, support for both agent-based and agentless monitoring, and scalability for various environments, including traditional infrastructure. Consider specific use cases, monitoring goals, and infrastructure preferences when making a decision.
+
 ### POC project
 
 ## Tracing
