@@ -102,7 +102,8 @@ By using a unique ID that is passed along with the request, it becomes possible 
 
 #### Drawback of Tracing 
 >1. Instrumentation tools might not recognize certain libraries or components, potentially leading to a lack of information for those components or making it challenging to trace them.
+>2.  In relatively simple and monolithic architectures, the benefits of tracing may not be as pronounced, and the additional complexity may outweigh the advantages.
 
 #### Tools for Tracing
 
-### POC project
+### POC project [spring-boot-otel-jaeger](https://github.com/santipabWannakiri/spring-boot-otel-jaeger)
