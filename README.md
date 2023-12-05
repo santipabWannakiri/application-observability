@@ -107,8 +107,15 @@ By using a unique ID that is passed along with the request, it becomes possible 
 #### Tools for Tracing
 Tracing tools exhibit a similar landscape to metrics tools, where numerous options exist, each with its strengths. This domain includes both commercial solutions like Dynatrace and open-source alternatives like Jaeger, showcasing the varied choices available for implementing effective tracing in diverse environments.
 
+`Jaeger` focuses on monitoring and troubleshooting microservices architectures. It visualizes the flow of requests across microservices, is compatible with the OpenTracing standard, and offers a graphical representation of traces for visualizing request paths. It excels in scalability for large and complex distributed systems.
+
+`Dynatrace` is a full-stack observability and application performance management platform. It provides comprehensive observability across infrastructure, applications, user experience, and business metrics. Featuring AI-powered root cause analysis, Smartscape technology for visualizing component relationships, real user monitoring (RUM), deep code-level visibility, and automatic baselining, Dynatrace offers a holistic approach to monitoring.
+
 <p align="center">
-  <img src="https://github.com/santipabWannakiri/spring-boot-otel-jaeger/raw/main/images/otel-jaeger.jpg" alt="image description" width="400" height="150">
+  <img src="https://github.com/santipabWannakiri/spring-boot-otel-jaeger/raw/main/images/otel-jaeger.jpg" alt="image description" width="860" height="220">
 </p>
+
+There are two parts to tracing: the agent and the collector, which includes the dashboard. 
+
 
 ### POC project [spring-boot-otel-jaeger](https://github.com/santipabWannakiri/spring-boot-otel-jaeger)
