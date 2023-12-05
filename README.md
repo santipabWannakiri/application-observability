@@ -117,5 +117,14 @@ Tracing tools exhibit a similar landscape to metrics tools, where numerous optio
 
 There are two parts to tracing: the agent and the collector, which includes the dashboard. 
 
+`Agent` is a component that runs alongside your application or service. It is responsible for instrumenting the code, collecting trace data, and sending that data to a central location (collector).
+
+`Collector` is a central component that receives trace data from various agents. It aggregates and stores this data for further analysis. In some systems, the collector is also referred to as the backend or storage component.
+Dashboard:
+
+`Dashboard` is the user interface where you can visualize and analyze trace data. It provides insights into the flow of requests, performance metrics, and can help in identifying bottlenecks or issues within your distributed system.
+
+So, in summary, you have the agent responsible for collecting trace data, the collector for aggregating and storing that data, and the dashboard for visualizing and analyzing the traces. Different tracing systems might use slightly different terms or have additional components, but the agent-collector-dashboard model is a common framework in distributed tracing.
+
 
 ### POC project [spring-boot-otel-jaeger](https://github.com/santipabWannakiri/spring-boot-otel-jaeger)
