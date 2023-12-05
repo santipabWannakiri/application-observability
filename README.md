@@ -81,6 +81,10 @@ These metrics, collected over time, enable comprehensive monitoring and analysis
 
 Unlike logging, where ELK readily comes to mind, metrics offer a plethora of tool choices. Notably, Prometheus and Zabbix are frequently recommended for centralized metric implementations.
 
+`Prometheus` is an open-source monitoring and alerting toolkit designed for dynamic, cloud-native environments. It adopts a pull-based model, scraping metrics from instrumented targets. Utilizing PromQL for querying time series data, it features built-in alerting with configurable thresholds, strong Kubernetes integration, and supports various exporters for third-party systems.
+
+`Zabbix` is also an open-source monitoring solution renowned for its network and application monitoring capabilities. It employs a relational database for storing metrics data and offers both agent-based and agentless monitoring options. Zabbix provides flexible alerting rules, supports SQL-based data queries, and integrates well with a wide range of devices and systems, including SNMP devices. It is known for its versatility and scalability, making it suitable for medium to large environments.
+
 ### POC project
 
 ## Tracing
