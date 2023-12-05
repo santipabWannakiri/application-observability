@@ -105,5 +105,10 @@ By using a unique ID that is passed along with the request, it becomes possible 
 >2.  In relatively simple and monolithic architectures, the benefits of tracing may not be as pronounced, and the additional complexity may outweigh the advantages.
 
 #### Tools for Tracing
+Tracing tools exhibit a similar landscape to metrics tools, where numerous options exist, each with its strengths. This domain includes both commercial solutions like Dynatrace and open-source alternatives like Jaeger, showcasing the varied choices available for implementing effective tracing in diverse environments.
+
+<p align="center">
+  <img src="https://github.com/santipabWannakiri/spring-boot-otel-jaeger/raw/main/images/otel-jaeger.jpg" alt="image description" width="400" height="150">
+</p>
 
 ### POC project [spring-boot-otel-jaeger](https://github.com/santipabWannakiri/spring-boot-otel-jaeger)
