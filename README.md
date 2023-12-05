@@ -90,3 +90,4 @@ Choose Prometheus for dynamic, cloud-native environments with strong Kubernetes 
 ### POC project
 
 ## Tracing
+Tracing involves tracking the journey of requests as they traverse various services or components within an application. The primary focus is on measuring the time spent at each component, providing an end-to-end overview. This approach is particularly valuable in microservices architectures to identify delays or bottlenecks in the application, enabling investigation and optimization. 
