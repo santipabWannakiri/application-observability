@@ -73,6 +73,7 @@ These metrics, collected over time, enable comprehensive monitoring and analysis
 >4. Metrics may lack detailed information compared to logging, limiting the depth of insights available for thorough analysis and investigation.
 
 #### Tools for Metrics
+Unlike logging, where ELK readily comes to mind, metrics offer a plethora of tool choices. Notably, Prometheus and Zabbix are frequently recommended for centralized metric implementations.
 
 ### POC project
 
