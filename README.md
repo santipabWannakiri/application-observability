@@ -74,7 +74,7 @@ These metrics, collected over time, enable comprehensive monitoring and analysis
 
 #### Tools for Metrics
 <p align="center">
-  <img src="images/prometheus-vs-zabbix.jpeg" alt="image description" width="450" height="250">
+  <img src="images/prometheus-vs-zabbix.jpeg" alt="image description" width="400" height="150">
 </p>
 
 ###### Source Picture: https://www.metricfire.com/blog/prometheus-vs-zabbix
