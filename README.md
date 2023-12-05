@@ -74,10 +74,10 @@ These metrics, collected over time, enable comprehensive monitoring and analysis
 
 #### Tools for Metrics
 <p align="center">
-  <img src="images/observability.png" alt="image description" width="450" height="250">
+  <img src="images/prometheus-vs-zabbix.jpeg" alt="image description" width="450" height="250">
 </p>
 
-###### Source Picture: https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html
+###### Source Picture: https://www.metricfire.com/blog/prometheus-vs-zabbix
 
 Unlike logging, where ELK readily comes to mind, metrics offer a plethora of tool choices. Notably, Prometheus and Zabbix are frequently recommended for centralized metric implementations.
 
