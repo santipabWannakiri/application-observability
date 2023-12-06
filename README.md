@@ -128,3 +128,13 @@ So, in summary, you have the agent responsible for collecting trace data, the co
 
 
 ### POC project [spring-boot-otel-jaeger](https://github.com/santipabWannakiri/spring-boot-otel-jaeger)
+
+## Vendor lock-in problem
+Implementing observability involves choosing from various tools provided by different vendors, like ELK for logging, Prometheus or Zabbix for metrics, and Dynatrace or Jaeger for tracing.\
+This abundance of tool options can lead to the vendor lock-in problem, wherein adopting specific tools may create dependencies that make it challenging to switch to alternative solutions.
+
+To address this issue, the Cloud Native Computing Foundation (CNCF), a nonprofit under the Linux Foundation, has initiated the `OpenTelemetry` project.
+
+`OpenTelemetry` is an Observability framework and toolkit designed to create and manage telemetry data such as traces, metrics, and logs. Crucially, OpenTelemetry is vendor- and tool-agnostic, meaning that it can be used with a broad variety of Observability backends, including open source tools like Jaeger and Prometheus, as well as commercial offerings.
+
+For more information: [What is OpenTelemetry?](https://opentelemetry.io/docs/what-is-opentelemetry/)
